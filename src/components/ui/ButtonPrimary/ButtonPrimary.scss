@@ -1,0 +1,35 @@
+@import "../../../assets/scss/variables";
+
+.container__button{
+    display:flex;
+    justify-content: flex-start;
+    width: 60%;
+    max-width: 350px;
+    @media (max-width: 400px) {
+        width: 100%;
+        
+    }
+    .button__primary{
+        background: $primary;
+        font-size: 14px;
+        width: 176px;
+        height: 56px;
+        cursor: pointer;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        color: $white;
+        font-weight: 700;
+        letter-spacing: 0.9px;
+        margin: 20px 0px 100px 0px;
+        &:disabled{
+            background: $secondary;
+            color: $input;
+        }
+        @media (max-width: 400px) {
+            width: 100%;
+            
+        }
+    }
+}
+

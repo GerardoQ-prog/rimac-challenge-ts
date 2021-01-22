@@ -1,0 +1,214 @@
+@import "../../../assets/scss/variables";
+
+.container__baner{
+    position:relative;
+    height: 608px; 
+    // width: 850px;
+    max-width: 850px;
+    @media (max-width: 675px) {
+        height: 508px; 
+    }
+    @media (max-width: 400px) {
+        height: 400px; 
+    }
+    .banner__font{
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 720px;
+    // height: 608px;
+    z-index: -2;  
+        @media (max-width: 675px) {
+            width: 620px;
+        }
+        @media (max-width: 570px) {
+            width: 520px;
+        }
+        @media (max-width: 470px) {
+            display: none;
+        }
+    }
+    .banner__fontmobile{
+        display:none;
+        @media (max-width: 470px) {
+            display: block;
+            position: absolute;
+            top: -50px;
+            left: -50px;
+            width: 408px;
+            z-index: -2;  
+        }
+    }
+    .container__logo{
+        max-width: 500px;
+        margin: 20px 40px 20px 80px;
+        @media (max-width: 675px) {
+            margin: 20px 40px 20px 60px;
+        };
+        @media (max-width: 500px) {
+            margin: 20px 40px 20px 20px;
+        }
+    }
+    .linea__logo{
+        height: 2px;
+        width: 75%;
+        background: #FC4E55;
+    }
+    .banner__title{
+        color:$white;
+        max-width: 400px;
+        margin: 20px 40px 20px 80px;
+        @media (max-width: 675px) {
+            margin: 20px 40px 20px 60px;
+        };
+        @media (max-width: 500px) {
+            margin: 20px 40px 20px 20px;
+        };
+        .text__title  {
+            font-size: 58px;
+            // padding: 20px;
+            font-weight: lighter;
+            margin: 0;
+            @media (max-width: 675px) {
+                font-size: 38px;
+            }
+            @media (max-width: 400px) {
+                font-size: 32px;
+            }
+        }
+        .text__title2{
+            font-size: 58px;
+            font-weight: 600;
+            margin: 0;
+            @media (max-width: 675px) {
+                font-size: 38px;
+            }
+            @media (max-width: 400px) {
+                font-size: 32px;
+            }
+        }
+    }
+    .banner__text{
+        color:$white;
+        max-width: 400px;
+        margin: 20px 40px 20px 80px;
+        @media (max-width: 675px) {
+            margin: 20px 40px 20px 60px;
+        };
+        @media (max-width: 500px) {
+            margin: 20px 40px 20px 20px;
+        };
+        @media (max-width: 570px) {
+            display: none;
+        }
+        .text__option{
+            display:flex;
+            height: 35px;
+            align-content: center;
+            img{
+                margin-right: 10px;
+            }
+            p{
+                align-self: center;
+                @media (max-width: 675px) {
+                    font-size: 14px;
+                }
+            }
+        } 
+    }
+    .text_footer{
+        margin-top: 100px;
+        margin-left: 80px;
+        color: #FFD7DA;
+        font-weight: 300;
+        font-size: 12px;
+        @media (max-width: 675px) {
+            margin-top: 50px;
+            margin-left: 60px;
+        };
+        @media (max-width: 575px) {
+            display: none;
+        }
+    }
+    .img__papa{
+        position:absolute;
+        bottom:100px;
+        right:150px;
+        @media (max-width: 675px) {
+            width: 101px;
+        };
+        @media (max-width: 400px) {
+            right:80px;
+            bottom:15px;
+        }
+    }
+    .img__mama{
+        position:absolute;
+        bottom:100px;
+        right:0px;
+        @media (max-width: 675px) {
+            width: 101px;
+        };
+        @media (max-width: 400px) {
+            display:none
+        }
+    }
+    .img__niño{
+        position:absolute;
+        bottom:100px;
+        right:70px;
+        @media (max-width: 675px) {
+            width: 101px;
+        }
+        @media (max-width: 400px) {
+            right:20px;
+            bottom:15px;
+        }
+    }
+    .img__planta{
+        position:absolute;
+        bottom:150px;
+        right:200px;
+        z-index:-1;
+        @media (max-width: 675px) {
+            width: 62px;
+            bottom:150px;
+            right:180px;
+        }
+        @media (max-width: 400px) {
+            display:none
+        }
+    }
+    .img__cuadro{
+        position:absolute;
+        bottom:350px;
+        right:200px;
+        z-index:-1;
+        @media (max-width: 675px) {
+            bottom:320px;
+            width: 62px;
+            right:180px;
+        };
+        @media (max-width: 400px) {
+            bottom:220px;
+            right:120px;
+        }
+    }
+    .img__mamamobile{
+        display:none;
+        @media (max-width: 400px) {
+            display:block;
+            position:absolute;
+            bottom:20px;
+            width: 62px;
+            right:0px;
+            z-index:-1;
+
+        }
+    }
+}
+
+
+
+
+

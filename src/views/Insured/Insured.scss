@@ -1,0 +1,8 @@
+.container__insured{
+
+    display: grid;
+    grid-template-columns: 40% auto;
+    @media (max-width: 970px) {
+        grid-template-columns: 100%; 
+    }
+}

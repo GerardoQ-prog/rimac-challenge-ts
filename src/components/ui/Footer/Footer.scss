@@ -1,0 +1,18 @@
+@import "../../../assets/scss/variables";
+
+
+.footer{
+    display:none;
+    position: absolute;
+    bottom: 0;
+    border-top: 1px solid $secondary;
+    margin: 30px 0px 0px 0px;
+    width: 89vw;
+    text-align: start;
+    padding: 20px;
+    color:$secondary;
+    @media (max-width: 500px) {
+        display: block;
+        position: absolute;
+    }  
+}

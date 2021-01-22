@@ -1,0 +1,42 @@
+@import "../../../assets/scss/variables";
+
+
+.button__add{
+    background: transparent;
+    cursor: pointer;
+    border:none;
+    outline: none;
+    height: 50px;
+    color:$input;
+    font-weight: 900;
+    margin-top: 13px;
+    margin-left: 3px;
+}
+// display:'flex',justifyContent:'space-around',width:340
+.container_family{
+    display:flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 340px;
+    max-width: 340px;
+}
+.family{
+    font-size: 16px;
+    color: $secondary;
+    width: 100px;
+}
+.familyborn{
+    font-size: 16px;
+    color: $secondary;
+    
+}
+.button__remove{
+    background: transparent;
+    cursor: pointer;
+    border:none;
+    outline: none;
+    height: 50px;
+    color:$input;
+    font-weight: 900;
+
+}

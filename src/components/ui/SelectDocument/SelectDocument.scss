@@ -1,0 +1,65 @@
+@import "../../../assets/scss/variables";
+
+
+.input__date{
+    border:1px solid $secondary;
+    border-radius: 4px;
+    background: $white;
+    width: 80px;
+    height: 56px;
+    position: relative;
+    padding-left: 10px ;
+    margin:10px 0px;
+    select{
+        // height: 97%;
+        // width: 97%;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        &:focus ~ label,
+        &:valid ~ label{
+            transform: translateY(-20px);
+            font-size: 12px;
+        }
+    }
+    label{
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        color:$input;
+        transition: all 0.3s ease;
+        padding-left: 10px ;
+
+    }
+}
+.input__document{
+    border:1px solid $secondary;
+    border-radius: 4px;
+    background: $white;
+    width: 200px;
+    height: 56px;
+    position: relative;
+    padding-left: 10px ;
+    margin:10px 0px;
+    input{
+        height: 95%;
+        width: 97%;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        &:focus ~ label,
+        &:valid ~ label{
+            transform: translateY(-20px);
+            font-size: 12px;
+        }
+    }
+    label{
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        color:$input;
+        transition: all 0.3s ease;
+        padding-left: 10px ;
+
+    }
+}

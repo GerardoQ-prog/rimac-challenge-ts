@@ -1,0 +1,112 @@
+@import "../../../assets/scss/variables";
+
+
+.container__banerseguro{
+    position:relative;
+    height: 608px; 
+    // width: 850px;
+    max-width: 650px;
+    @media (max-width: 675px) {
+        height: 508px; 
+    }
+    @media (max-width: 500px) {
+        display: none;
+    }
+    .banner__font{
+        position: absolute;
+        top: -50px;
+        left: -50px;
+        width: 336px;
+        // height: 608px;
+        z-index: -2;  
+            @media (max-width: 675px) {
+                width: 276px;
+            }
+            @media (max-width: 570px) {
+                width: 276px;
+            }
+            @media (max-width: 470px) {
+                display: none;
+            }
+        }
+        .container__logo{
+            max-width: 500px;
+            margin: 20px 40px 20px 80px;
+            @media (max-width: 675px) {
+                margin: 20px 40px 20px 60px;
+            };
+            @media (max-width: 500px) {
+                margin: 20px 40px 20px 20px;
+            }
+        }
+        .linea__logo{
+            height: 2px;
+            width: 55%;
+            background: #FC4E55;
+            @media (max-width: 970px) {
+                width: 35%;
+
+            };
+        }
+        .img__papa{
+            position:absolute;
+            bottom:100px;
+            left:150px;
+            @media (max-width: 675px) {
+                width: 101px;
+                left:80px;
+                bottom:100px;
+            };
+        }
+        .img__mama{
+            position:absolute;
+            bottom:100px;
+            left:290px;
+            @media (max-width: 675px) {
+                width: 101px;
+                bottom:100px;
+                left:190px;
+            };
+        }
+        .img__niño{
+            position:absolute;
+            bottom:100px;
+            left:240px;
+            @media (max-width: 675px) {
+                width: 101px;
+                bottom:100px;
+                left:140px;
+            }
+        }
+        .img__planta{
+            position:absolute;
+            bottom:150px;
+            left:150px;
+            z-index:-1;
+            @media (max-width: 675px) {
+                width: 62px;
+                bottom:150px;
+                left:80px;
+            }
+        }
+        .img__cuadro{
+            position:absolute;
+            bottom:350px;
+            left:150px;
+            z-index:-1;
+            @media (max-width: 675px) {
+                width: 62px;
+                bottom:320px;
+                left:70px;
+            };
+        }
+}
+.container__banerseguromobile{
+    display: none;
+    background: $primary;
+    height: 40px;
+    @media (max-width: 500px) {
+        display: flex;
+        padding: 20px;
+    }
+}

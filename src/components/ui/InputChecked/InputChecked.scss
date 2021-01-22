@@ -1,0 +1,25 @@
+@import "../../../assets/scss/variables";
+
+
+.form-checkbox{
+    max-width: 288px;
+    height: 40px;
+    font-size: 12px;
+    color:$input;   
+    position: relative;
+    margin: 0px 0px;
+    width: 300px;
+    input{
+        width: 20px;
+        height: 20px;
+        
+    }
+    label{
+        position: absolute;
+        height: 50px;
+        margin-left: 15px;
+        a{
+            text-decoration: underline;
+        }
+    }
+}

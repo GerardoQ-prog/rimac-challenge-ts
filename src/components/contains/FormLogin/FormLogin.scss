@@ -1,0 +1,35 @@
+@import "../../../assets/scss/variables";
+.container__form{
+    margin: 20px 0px;
+    display:flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    height: 575px;
+    @media (max-width: 400px) {
+        align-items: start;  
+    }
+    .form__title{
+        display:flex;
+        font-size: 28px;
+        font-weight: 300;
+        margin: 0px 0px 0px 0px;
+        .title_strong{
+            color:$primary;
+            font-weight: 400;
+            margin: 0px 7px;
+        }
+    }
+    .form__subtitle{
+        color:$input
+    }
+    .form__error{
+        color:$primary;
+        font-size: 12px;
+        margin:3px 0px
+    }
+}
+
+
