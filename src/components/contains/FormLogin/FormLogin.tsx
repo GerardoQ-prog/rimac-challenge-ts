@@ -129,6 +129,7 @@ const FormLogin = () => {
                <p className="title_strong">seguro ahora</p>
            </div> 
            <p className="form__subtitle">Ingresa los datos para comenzar.</p>
+
            <SelectDocument nameType="typedni" nameDni="dni" dni={dni} typeDni={typedni} onChange={handleChange}/>
            {errors.dni !== '' && <label className="form__error">{errors.dni}</label>}
            <InputDate onChange={handleChange} label="Fecha de nacimiento" name="date" value={date}/>
@@ -139,6 +140,7 @@ const FormLogin = () => {
            <InputChecked onChange={handleChangeCheckedOne} label="Acepto la " underline="Política de Envío de Comunicaciones Comerciales." checked={permitionsTwo} name="permitionsTwo"/>
            {errors.permitionsTwo !== '' && <label className="form__error">{errors.permitionsTwo}</label>}
            <ButtonPrimary onClick={handleSubmit} disabled={activeButton}/>
+           
         </form>
     )
 }

@@ -58,6 +58,9 @@ const BannerLogin = () => {
             <img src={Plant} alt="Papa" className="img__planta"></img>
             <img src={Frame} alt="Papa" className="img__cuadro"></img>
             <img src={Mom2} alt="Papa" className="img__mamamobile"></img>
+            <br></br>
+            <label className="aviso">Ingresar con el DNI : 74132910 , para el flujo de usuario registrado en BD</label>
+
         </div>
     )
 }

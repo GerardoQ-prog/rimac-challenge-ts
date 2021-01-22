@@ -206,6 +206,11 @@
 
         }
     }
+    .aviso{
+        @media (max-width: 590px) {
+            display:none
+        }
+    }
 }
 
 
